@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Lifecycle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>DevOps Lifecycle</h1>
+    </div>
+    <div class="lifecycle-container">
+        <div class="lifecycle-step">
+            <h3>Plan</h3>
+            <p>Define scope, goals, and backlog.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Develop</h3>
+            <p>Write code and manage source control.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Build</h3>
+            <p>Compile and package the application.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Test</h3>
+            <p>Run automated and manual tests.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Release</h3>
+            <p>Approve and prepare for deployment.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Deploy</h3>
+            <p>Deploy to production environment.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Operate</h3>
+            <p>Manage infrastructure and services.</p>
+        </div>
+        <div class="lifecycle-step">
+            <h3>Monitor</h3>
+            <p>Monitor performance and log metrics.</p>
+        </div>
+    </div>
+</body>
+</html>
