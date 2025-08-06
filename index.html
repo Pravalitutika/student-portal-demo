@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Mood Journal</h1>
+
+    <form id="moodForm">
+      <label for="mood">How are you feeling today?</label>
+      <div class="mood-options">
+        <label><input type="radio" name="mood" value="😊" required> 😊</label>
+        <label><input type="radio" name="mood" value="😢"> 😢</label>
+        <label><input type="radio" name="mood" value="😠"> 😠</label>
+        <label><input type="radio" name="mood" value="😴"> 😴</label>
+        <label><input type="radio" name="mood" value="😇"> 😇</label>
+      </div>
+
+      <label for="note">Write something about your day:</label>
+      <textarea id="note" name="note" rows="4" placeholder="Today was..."></textarea>
+
+      <button type="submit">Save Entry</button>
+    </form>
+
+    <h2>📅 Your Entries</h2>
+    <div id="entries"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
